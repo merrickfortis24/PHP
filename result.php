@@ -10,7 +10,7 @@ if (empty($_GET["search"])) {
     $i = 0;
 
     foreach ($terms as $each) {
-        $each = trim($each); // Clean up whitespace
+        $each = trim($each);
         $i++;
 
         if ($i == 1) {
