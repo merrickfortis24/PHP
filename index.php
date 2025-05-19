@@ -90,7 +90,7 @@ while ($row = mysqli_fetch_assoc($view_query)) {
 
             <a href='Edit.php?id=$user_id'>Update</a>
             &nbsp;
-            <a href=''>Delete</a>
+            <a href='ConfirmDelete.php?id=$user_id'>Delete</a>
             </td>
             
 
