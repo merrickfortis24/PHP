@@ -34,6 +34,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
    
 </style>
 
+<br>
+
+<?php include("nav.php"); ?>
+
+<br>
+<br>
+
 <form method="POST" action="<?php htmlspecialchars ("PHP_SELF"); ?>">
 
 <input type="text" name= "name" value="<?php echo $name; ?>"> <br>
@@ -100,4 +107,17 @@ while ($row = mysqli_fetch_assoc($view_query)) {
 
 echo "</table>";
 
+?>
+
+<hr>
+
+<?php
+
+$Paul = "Paul";
+$Mica = "Mica";
+$Kaye = "Kaye";
+$names = array("$Kaye", "$Paul", "$Mica") ;
+foreach ($names as $display_names) {
+    echo $display_names . "<br>";
+}
 ?>

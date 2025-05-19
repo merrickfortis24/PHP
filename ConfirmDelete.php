@@ -18,7 +18,7 @@ echo "<h1> Are you sure you want to delete $db_name ?</h1>";
 
 ?>
 
-<form method="POST" action="">
+<form method="POST" action="Delete_Now.php">
     
     <input type="hidden" name="user_id" value="<?php echo $user_id; ?>">
     <Br>
