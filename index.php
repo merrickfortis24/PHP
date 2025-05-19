@@ -89,8 +89,6 @@ while ($row = mysqli_fetch_assoc($view_query)) {
             <td>
 
             <a href='Edit.php?id=$user_id'>Update</a>
-
-            <a href=''>Update</a>
             &nbsp;
             <a href=''>Delete</a>
             </td>
